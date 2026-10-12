@@ -24,6 +24,12 @@ def bake_time_remaining(elapsed_bake_time):
 
     return expected_time - elapsed_bake_time
 
+def preparation_time_in_minutes(number_of_layers):
+
+    """di sini kita menghitung waktu persiapan di kali/multiply dengan number_of_layers/jumlah layer"""
+
+    return number_of_layers * preparation_time
+
 
 
         
